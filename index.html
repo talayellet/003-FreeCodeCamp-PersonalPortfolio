@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>Personal Portfolio</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--Project css-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900,400italic,700italic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/global.css" rel="stylesheet">
+
+    <!--Project scripts-->
+    <script src="./js/homePage.js" type="text/javascript"></script>
+</head>
+<!-- Scrollspy -->
+<body data-spy="scroll"data-target=".navbar" data-offset="50">
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img  style="height: 100%;" alt="Brand" src="https://image.ibb.co/effSa6/Brand_Image_01_c_120_X85.jpg">
+            </a>
+        </div>
+
+        <!-- Collect the nav content for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="bs-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li id="homeNavLink" class="active navLink"><a href="#pageHomeHeader">Home</a></li>
+                <li id="portfolioNavLink" class="navLink"><a href="#portfolioSection">Portfolio</a></li>
+                <li id="contactNavLink" class="navLink"><a href="#contactSection">Contact</a></li>
+                <li id="aboutNavLink" class="navLink"><a href="#servicesDiv">Services</a></li>
+                <li id="socialMediaNavLink" class="navLink"><a href="#socialMediaNav">Social Media</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav>
+
+<!-- Header -->
+<header id="pageHomeHeader">
+    <div class="container">
+        <div class="row headerWrapper">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 col-xs-12">
+                <img id="profileImage" class="img-circle img-responsive center-block" src="https://image.ibb.co/d810Cm/Self.jpg" alt="Profile Image"></img>
+                <h1 class="text-center">Front End Developer</h1>
+                <hr></hr>
+                <h3 class="text-center">Web Developer <i class="fa fa-skyatlas"></i> Graphic Artist <i class="fa fa-skyatlas"></i> User Experience Designer</h3>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+</header>
+
+<!-- Portfolio -->
+<section id="portfolioSection">
+    <div class="container">
+        <div class="row portfolioWrapper">
+            <div class="col-xs-12">
+                <div id="portfolioHeader" class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-xs-12 col-md-8">
+                        <h1 class="text-center">Portfolio</h1>
+                        <hr></hr>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+                <div id="portfolioThumbnails" class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <div class="thumbnail">
+                            <img src="https://image.ibb.co/ejLVDR/architect.png" alt="architect" class="img-responsive"></img>
+                            <div class="caption">
+                                <h3>Architect</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin dui a purus tempus ornare. Aenean luctus lectus in mauris sollicitudin sollicitudin. Aenean laoreet viverra sapien nec sodales. Duis at justo quis sapien pulvinar efficitur ac et nibh. Maecenas nulla urna, </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="thumbnail">
+                            <img src="https://image.ibb.co/mvuqDR/blog.png" alt="blog" class="img-responsive"></img>
+                            <div class="caption">
+                                <h3>Blog</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin dui a purus tempus ornare. Aenean luctus lectus in mauris sollicitudin sollicitudin. Aenean laoreet viverra sapien nec sodales. Duis at justo quis sapien pulvinar efficitur ac et nibh. Maecenas nulla urna, </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="thumbnail">
+                            <img src="https://image.ibb.co/bJVVDR/cv.png" alt="cv" class="img-responsive"></img>
+                            <div class="caption">
+                                <h3>CV</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin dui a purus tempus ornare. Aenean luctus lectus in mauris sollicitudin sollicitudin. Aenean laoreet viverra sapien nec sodales. Duis at justo quis sapien pulvinar efficitur ac et nibh. Maecenas nulla urna, </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="thumbnail">
+                            <img src="https://image.ibb.co/jvJvf6/foodBlog.png" alt="foodBlog" class="img-responsive"></img>
+                            <div class="caption">
+                                <h3>Food Blog</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin dui a purus tempus ornare. Aenean luctus lectus in mauris sollicitudin sollicitudin. Aenean laoreet viverra sapien nec sodales. Duis at justo quis sapien pulvinar efficitur ac et nibh. Maecenas nulla urna, </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="thumbnail">
+                            <img src="https://image.ibb.co/iRze7m/photo.png" alt="photo" class="img-responsive"></img>
+                            <div class="caption">
+                                <h3>Photo</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin dui a purus tempus ornare. Aenean luctus lectus in mauris sollicitudin sollicitudin. Aenean laoreet viverra sapien nec sodales. Duis at justo quis sapien pulvinar efficitur ac et nibh. Maecenas nulla urna, </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="thumbnail">
+                            <img src="https://image.ibb.co/hQ1Ff6/social_Media.png" alt="social_Media" class="img-responsive"></img>
+                            <div class="caption">
+                                <h3>Social Media</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin dui a purus tempus ornare. Aenean luctus lectus in mauris sollicitudin sollicitudin. Aenean laoreet viverra sapien nec sodales. Duis at justo quis sapien pulvinar efficitur ac et nibh. Maecenas nulla urna, </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Me -->
+<section id="contactSection">
+    <div class="container">
+        <div class="row aboutWrapper">
+            <div class="col-xs-12">
+                <!-- Contact & About HEADER-->
+                <div id="contactHeader" class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-xs-12 col-md-8">
+                        <h1 class="text-center">Contact Me</h1>
+                        <hr></hr>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+                <!-- Contact & About section-->
+                <div id="contactAndAboutRow" class="row is-table-row">
+                    <!-- FORM -->
+                    <div class="col-xs-12 col-md-6">
+                        <form id="contactForm" action="/submit-contact-form">
+                            <div class="form-group form-group-lg">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" placeholder="Name" name="name">
+                            </div>
+                            <div class="form-group form-group-lg">
+                                <label for="email">Email Address:</label>
+                                <input type="email" class="form-control" placeholder="Email Address" name="email">
+                            </div>
+                            <div class="form-group form-group-lg">
+                                <label for="tel">Phone Number:</label>
+                                <input type="tel" class="form-control" placeholder="PhoneNumber" name="tel">
+                            </div>
+                            <div class="form-group form-group-lg">
+                                <label for="message">Message:</label>
+                                <input type="text" class="form-control" placeholder="Please enter your message here" name="message">
+                            </div>
+                            <button id="submitBtn" type="submit" class="btn btn-primary disabled" data-toggle="tooltip" title="Server side is not yet implemented"><i class="fa fa-paper-plane"></i> Submit</button>
+                        </form>
+                    </div>
+                    <!-- ABOUT -->
+                    <div id="aboutCol" class="col-xs-12 col-md-6 about">
+                        <div>
+                            <article>
+                                <h2>About</h2>
+                                <p>My name is Ayellet Tal, & I currently am working as a Front-End Developer, which is where my passion for design and development converge. See my previous work history on LinkedIn. Outside of work I have two beautiful boys and dog (obviously). I am currently accepting freelance work, & I'd love to get coffee and get to know you, so don’t hesitate to get in touch.</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <!-- SERVICES section -->
+                <div id="servicesDiv" class="row services">
+                    <div class="col-xs-12">
+                        <div class="about">
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-xs-12 col-md-6">
+                                    <h1 class="text-center">Services</h1>
+                                    <hr></hr>
+                                </div>
+                                <div class="col-md-3"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>UI/UX DESIGN</h3>
+                                    <p>UI/UX involves planning and iterating a site's structure and layout. Once the proper information architecture is in place, I design the visual layer to create a beautiful user experience.</p>
+                                    <h3>FRONT END DEVELOPMENT</h3>
+                                    <p>Front End Development is building out the visual components of a website. Using HTML, CSS, and JavaScript, I build fast, interactive & responsive websites. This also may include using jQuery, Bootstrap & ReactJS.</p>
+                                    <h3>BRAND & COLLATERAL DESIGN</h3>
+                                    <p>While most of my attention is on interactive projects, I do branding and collateral from time to time. This includes logo design, business cards, and other printed materials.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<nav id="socialMediaNav" class="navbar navbar-default">
+    <div class="container">
+        <div id="footerRow" class="row">
+            <div class="col-xs-3 col-md-4 footerCol"></div>
+            <div class="col-xs-2 col-md-1 footerCol">
+                <a href="https://www.facebook.com/ayelet.tal.3" class="btn btn-primary btn-block active" role="button" aria-pressed="true" target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="col-xs-2 col-md-1 footerCol">
+                <a href="https://www.linkedin.com/in/ayelet-tal-71173275" class="btn btn-info btn-block active" role="button" aria-pressed="true" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="col-xs-2 col-md-1 footerCol">
+                <a href="https://twitter.com/TalAyellet" class="btn btn-danger btn-block active" role="button" aria-pressed="true" target="_blank"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="col-xs-3 col-md-4 footerCol"></div>
+        </div>
+    </div>
+</nav>
+</body>
+</html>

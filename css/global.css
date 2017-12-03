@@ -1,0 +1,132 @@
+body {
+    background-color: #e3e0cf;
+}
+
+h1 {
+    font-family: "Lobster", sans-serif;
+}
+
+.navbar-default {
+    background-color: #79867f;
+}
+
+.navbar-brand {
+    padding: 5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-toggle {
+    background-color: #dddddd;
+}
+
+.headerWrapper {
+    background-color: #9fa8a3;
+}
+
+#profileImage {
+    padding: 100px 0 20px 0;
+}
+
+.headerWrapper h3 {
+    margin-top: -5px;
+    font-family: "Raleway", sans-serif;
+}
+
+i {
+    padding: 10px;
+}
+
+.portfolioWrapper {
+    background-color: #c5d5cb;
+}
+
+#portfolioSection {
+    padding-top: 50px;
+}
+
+#contactSection {
+    padding-top: 50px;
+}
+
+.aboutWrapper {
+    background-color: #c2dde6;
+}
+
+form, .about {
+    border: 1px solid #9fa8a3;
+    border-radius: 5px;
+    padding: 20px 10px 10px 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+    background-color: #e8edf3;
+}
+
+/* Mobile: */
+@media only screen and (max-width: 500px) {
+    .is-table-row {
+        margin-right: 15px;
+    }
+
+    form {
+        margin-right: -30px;
+    }
+
+    .btn.disabled {
+        pointer-events: auto;
+    }
+
+    #aboutCol {
+        margin: 15px;
+    }
+
+    .footerCol {
+        padding: 0 5px 0 5px;
+    }
+
+    #footerRow button {
+        padding: 10px 5px 10px 5px;
+    }
+
+    #footerRow i {
+        padding: 0;
+    }
+}
+
+/* Laptop */
+@media only screen and (min-width : 768px) {
+    .is-table-row {
+        display: table;
+        margin-bottom: 15px;
+        margin-right: 1px;
+    }
+    .is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+}
+
+#servicesDiv {
+    padding-top:50px;
+}
+
+.services {
+    margin-bottom: 10px;
+}
+
+.services h1 {
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #9fa8a3;
+}
+
+#footerRow {
+    margin: 10px 0 10px 0;
+}
+
+#footerRow button {
+    border-radius: 5px;
+}
