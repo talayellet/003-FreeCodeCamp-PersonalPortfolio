@@ -1,0 +1,77 @@
+/* Smartphones  ----------- */
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+a, a:visited {
+    color: white;
+}
+
+.random-color {
+    background-color: orange;
+}
+
+/*content-wrapper*/
+.content-wrapper {
+    width: 100%;
+    background-color: white;
+    margin-top: 100px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/*quote-row*/
+.quote-row {
+    width: 100%;
+}
+
+#quote-div {
+    font-size: 28px;
+}
+
+#quote-div p {
+    display: inline;
+}
+
+/*buttons-row*/
+.buttons-row {
+    width: 100%;
+    display: flex;
+    color: white;
+    padding-top: 20px;
+}
+
+.left-btn-col, .right-btn-col {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.right-btn-col {
+    justify-content: flex-end;
+}
+
+.twitter-btn-wrapper {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/*credit-row*/
+.credit-row {
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+    /* Styles */
+
+}
